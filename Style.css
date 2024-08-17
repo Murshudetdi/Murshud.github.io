@@ -1,0 +1,47 @@
+body{
+    line-height: 30px;
+    color: #777;
+    background: #899;
+}
+header, 
+nav,
+section,
+aside,
+footer{
+    display:block;
+    padding:10px;
+    margin:10px;
+    text-align:center;
+    background: #ebebeb;
+}
+section{
+   display: block;
+    float: left;
+    width: 544px;
+    height: 266px;
+    overflow: hidden;
+}
+aside{
+    display: block;
+    float: right;
+    width: 48%;
+    height: 266px;
+    overflow: hidden;
+}
+article{
+    padding: 10px;
+    color: aqua;   
+    background: #777;
+}
+.clear{
+    clear: both;
+}
+h1,
+p {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    color: #345;
+    text-align: center;
+    background: #ebebeb
+}
